@@ -11,7 +11,7 @@ export default async function CratesHomepage({searchParams}: {searchParams: Prom
   return (
     <section className='flex-1'>
         <AppHeader/>
-        <div className='pt-4 grid grid-cols-12 grid-rows-11 gap-4 '>
+        <div className='pt-4 md:grid grid-cols-12 grid-rows-11 gap-4 '>
             <UserCrates/>
             <FeaturedCrates/>
             <div>
